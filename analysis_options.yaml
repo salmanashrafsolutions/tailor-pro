@@ -1,0 +1,12 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    avoid_print: ignore
+    depend_on_referenced_packages: ignore
+  exclude:
+    - build/**
+    - web/**
+    - android/**
+    - windows/**
+

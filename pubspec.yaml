@@ -1,0 +1,71 @@
+name: tailor_pro
+description: "TailorPro - Professional Bilingual Offline-First Tailor Register & Shop Management App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.5.1
+
+  # Localization & Date
+  intl: any
+
+  # Local Offline SQLite
+  sqflite: ^2.3.3+1
+  sqflite_common_ffi: ^2.3.3
+  sqflite_common_ffi_web: ^0.4.3
+  path_provider: ^2.1.3
+  path: ^1.9.0
+
+  # Utilities & Data
+  uuid: ^4.4.0
+  crypto: ^3.0.3
+  archive: ^3.6.1
+  csv: ^6.0.0
+  excel: ^4.0.3
+  share_plus: ^9.0.0
+  file_picker: ^8.0.0
+
+  # Documents & Printing
+  pdf: ^3.10.8
+  printing: ^5.12.0
+  qr_flutter: ^4.1.0
+
+  # Media & Hardware
+  mobile_scanner: ^5.1.1
+  record: ^5.1.2
+  audioplayers: ^6.0.0
+
+  # Calendar & UI
+  table_calendar: ^3.1.2
+  record_web: ^1.1.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+dependency_overrides:
+  record_platform_interface: 1.2.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: NotoNastaliqUrdu
+      fonts:
+        - asset: assets/fonts/NotoNastaliqUrdu.ttf
+
