@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.tailorpro.app.tailor_pro"
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 36
     ndkVersion = flutter.ndkVersion
 
     compileOptions {

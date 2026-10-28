@@ -32,7 +32,6 @@ dependencies:
   csv: ^6.0.0
   excel: ^4.0.3
   share_plus: ^9.0.0
-  file_picker: ^8.0.0
 
   # Documents & Printing
   pdf: ^3.10.8
