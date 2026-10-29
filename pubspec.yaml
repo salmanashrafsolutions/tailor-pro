@@ -38,22 +38,13 @@ dependencies:
   printing: ^5.12.0
   qr_flutter: ^4.1.0
 
-  # Media & Hardware
-  mobile_scanner: ^5.1.1
-  record: ^5.1.2
-  audioplayers: ^6.0.0
-
   # Calendar & UI
   table_calendar: ^3.1.2
-  record_web: ^1.1.9
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
-
-dependency_overrides:
-  record_platform_interface: 1.2.0
 
 flutter:
   uses-material-design: true
@@ -67,4 +58,3 @@ flutter:
     - family: NotoNastaliqUrdu
       fonts:
         - asset: assets/fonts/NotoNastaliqUrdu.ttf
-
